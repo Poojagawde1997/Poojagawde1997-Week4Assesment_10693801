@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">  
+    <!-- Links -->
+    <ul class="navbar-nav ">
+          <a routerLink="home" class="nav-link" routerLinkActive="active">Home</a>
+          <a routerLink="bankcustomer" class="nav-link" routerLinkActive="active"> List Customer </a>
+          <a routerLink="addcustomer" class="nav-link" routerLinkActive="active">Add Customer</a>
+    </ul>
+    &nbsp;&nbsp;<img src="assets/Banklogo.png" class="img-rounded "  alt="abc"   width="70" height="70">
+    
+  </nav>
+  <div  class="jumbotron vertical-center bg">
+  <div class="container">
+    <br>
+    <h2 style="text-align: center;color: darkslategrey;">{{title}}</h2>
+    <hr>  
+    <div class="card">
+      <div class="card-body">
+    <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer class="footer">
+    <div class="container">
+        <span>Contact us : 022-3656485</span>&nbsp;&nbsp;
+        <span>All Rights Reserved</span>
+    </div>
+  </footer>

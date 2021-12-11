@@ -1,0 +1,22 @@
+<h2>Customer Details</h2> 
+
+<hr/>
+<img src="assets/customerdetails.jpg" class="img-rounded  img3"  alt="abc"   >
+<div *ngIf="customer">
+  <div>
+    <label><b> Name: </b></label> {{customer.name}}
+  </div>
+  <div>
+    <label><b>Age: </b></label> {{customer.age}}
+  </div>
+  <div>
+    <label><b>Address: </b></label> {{customer.address}}
+  </div>
+  <div>
+    <label><b>Type of Account: </b></label> {{customer.typeofacc}}
+  </div> 
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Customer List</button><br>

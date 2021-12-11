@@ -1,0 +1,12 @@
+#address{
+    resize: none;
+}
+
+.alert{
+    position:fixed;
+}
+
+.img{
+    position: absolute;
+    right: 16%;
+}
